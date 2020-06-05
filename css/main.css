@@ -1,0 +1,654 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+
+body{
+	height: 100%;
+	width: 100%;
+	background-color: #9d081c;
+	font-family: 'GT Walsheim Pro';
+}
+
+.firstrow{
+	background-color: #ff0500;
+	height: 45px;
+}
+
+.socialicons ul {
+	list-style: none;
+	text-decoration: none;
+	margin-top: 10px;
+
+}
+
+.socialicons ul a{
+	color: white;
+	padding-right: 45px;
+}
+
+.socialicons li{
+	display: inline;
+}
+
+.secondrow{
+	margin-top: 20px;
+}
+
+
+.secondnav ul{
+	list-style: none;
+}
+.secondnav li{
+	display: inline;
+}
+
+
+.navbar-inverse{
+   background-color: transparent;
+   border: none;
+}
+.navbar-inverse .navbar-nav li a{
+    color: white;
+}
+
+
+.secondrow .nav2{
+	padding-right: 60px;
+	margin-top: 40px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+}
+
+
+.secondrow .row2b .heading h1{
+	font-size: 70.87px;
+	color: white;
+}
+
+
+.secondrow .row2b {
+	text-align: center;
+	padding-top: 55px;
+}
+
+.secondrow .row2c{
+	margin-top: 30px;
+}
+.secondrow .row2c .videoa img{
+	height: 500px;
+	width: 650px;
+}
+
+.secondrow .row2c .signform {
+	height: 500px;
+	width: 450px;
+	border: 10px solid black;
+	background-color: #fc1d13;
+	text-align: center;
+}
+
+.secondrow .row2c .signform h1{
+	color: black;
+	font-size: 49.07px;
+	margin-bottom: 25px;
+}
+
+.secondrow .row2c .signform hr{
+	border: 3px solid black;
+	width: 70px;
+	
+}
+.secondrow .row2c .signform .signformcontent{	
+	margin-top: 30px;
+}
+
+.secondrow .row2c .signform .para h3{	
+	font-family: 'Poppins';
+	font-size: 20px;
+	color: black;
+	font-weight: bold;
+}	
+
+
+
+.secondrow .row2c .signform .signformcontent .inputs input{
+	height: 40px;
+	width: 330px;
+	padding: 10px 10px;
+	margin: 10px 10px;
+}
+
+
+.secondrow .row2c .signform .signformcontent .inputs input::placeholder{
+	color: black;
+}
+
+#special{
+	margin-top: 20px;
+}
+
+#signup{
+	background-color: black;
+	color: white;
+	border: 2px solid black;
+	height: 40px;
+	width: 330px;
+	padding: 10px 10px;
+	margin: 10px 10px;
+	font-weight: bold;
+}
+
+h1 h3{
+	font-family: 'GT Walsheim Pro';
+	font-weight: bold;
+
+}
+
+#playbutton{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	margin: auto auto;
+	width: 100px;
+	height: 100px;
+	cursor: pointer;
+	
+}
+
+
+#thirdrow{
+	padding-bottom: 50px;
+	background-color: white;
+	margin-top: 120px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.row3a{
+	text-align: center;
+}
+
+.row3a h1{
+	font-size: 60px;
+	margin-top: 80px;
+}
+
+.row3b .posts{
+	display: inline-block;
+	margin:0px 25px ;
+	border:1px solid #00000026;
+}
+
+.row3b .posts img{
+   width: 100%;
+   height: 180px;
+}	
+
+.row3b .posts h3{
+	font-size: 20px;
+	font-family: 'GT Walsheim Pro';
+	font-weight: bolder;
+	padding-left: 5px;
+
+}
+
+.row3b{
+	position: relative;
+}
+
+
+#mybox1{
+	overflow: hidden;
+	margin: 40px auto;
+	width: 90%;
+	
+}
+
+#left{
+	position: absolute;
+	top: 45%;
+	left: 95%;
+	font-size: 50px;
+	color: red;
+	cursor: pointer;
+}
+
+#right{
+	position: absolute;
+	top: 45%;
+	font-size: 50px;
+	color: red;
+	left: 2%;
+	cursor: pointer;
+}
+
+.slick-dots
+{
+    position: absolute;
+    margin-top: 30px;
+    display: block;
+    width: 100%;
+    padding-right: 100px;
+    list-style: none;
+    text-align: center;
+
+}
+.slick-dots li
+{
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+
+}
+.slick-dots li button
+{
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: none;
+}
+.slick-dots li button:hover,
+.slick-dots li button:focus
+{
+    outline: none;
+}
+.slick-dots li button:hover:before,
+.slick-dots li button:focus:before
+{
+    opacity: 1;
+}
+.slick-dots li button:before
+{
+    font-family: 'slick';
+    font-size: 35px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.slick-dots li.slick-active button:before
+{
+    opacity: .75;
+    color: red;
+}
+
+
+#fourthrow{
+	padding-bottom: 50px;
+}
+#mybox2{
+	overflow: hidden;
+	margin: 40px auto;
+	width: 90%;
+	
+}
+
+.row4a{
+	text-align: center;
+}
+
+.row4a h1{
+	font-size: 60px;
+	margin-top: 100px;
+	color: white;
+}
+.row4b .posts{
+	display: inline-block;
+	margin:0px 25px ;
+	border:1px solid #00000026;
+	
+}
+
+.row4b .posts img{
+   width: 100%;
+   height: 380px;
+}	
+
+.row4b .posts p{
+	font-size: 15px;
+	font-family: 'Poppins';
+	padding-left: 15px;
+	color: white;
+	top: -50px;
+	position: relative;
+	z-index: 1000;
+
+}
+
+.row4b{
+	position: relative;
+}
+
+#fifthrow{
+	height: 540px;
+	background-color: white;
+}
+
+.row5a{
+	text-align: center;
+}
+
+.row5b{
+	overflow: hidden;
+}
+
+.row5a h1{
+	font-size: 60px;
+	margin-top: 100px;
+	color: black;
+}
+
+.mydiv{
+	background-color: red;
+	height: 55px;
+	margin-top: 30px;
+
+}
+
+#mypic{
+	padding: 0px;
+	z-index: 1000000;
+}
+
+.Customer{
+	font-family: 'GT Walsheim Pro';
+	color: white;
+	font-size: 17px;
+	padding-left: 30PX;
+	letter-spacing: 1PX;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+.happy{
+	font-family: 'Poppins';
+	font-size: 12px;
+	color: white;
+	margin: 0px;
+	padding-left: 30PX;
+	margin-top: 2px;
+}
+
+.stars span i{
+	color: white;
+	line-height: 50px;
+
+}
+
+.comments{
+	height: 150px;
+	margin-top: -50px;
+	box-shadow: 0px 0px 18px #ddd;
+}
+
+#background{
+	z-index: 100000;
+}
+
+#background img{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	margin: auto auto;
+}
+
+.comm{
+	font-family: 'Poppins';
+	font-size: 13px;
+	text-align: center;
+	font-style: italic;
+	margin-top: 45px;
+}
+
+#sixthrow{
+	padding-bottom: 60px;
+}
+
+.row6a h1{
+	font-size: 60px;
+	margin-top: 100px;
+	color: white;
+}
+
+.row6a{
+	text-align: center;
+}
+
+.row6b{
+	margin-top: 30px;
+}
+
+
+.fbshort{
+	height: 50px;
+	background-color: #888888;
+	border-radius: 5px;
+}
+
+.fbshort .row{
+	padding-top: 10px;
+}
+
+.fbshort .row .fb{
+	color: white; 
+	font-size: 30px;
+}
+
+.fbshort .row p{
+	color: white;
+	font-family: 'Lato';
+	font-size: 13px;
+	padding-left: 2px;
+	padding-top: 5px;
+}
+
+.youtubeshort{
+	height: 50px;
+	background-color: #ee1c1b;
+	border-radius: 5px;
+}
+
+.signinshort{
+	height: 50px;
+	background-color: #888888;
+	border-radius: 5px;
+	padding-top: 15px;
+}
+
+#likebutton{
+	cursor: pointer;
+	padding-left: 0px;
+	margin-left: -10px; 
+	margin-top: 5px;
+
+}
+
+#liked{
+	cursor: pointer;
+	padding-left: 15px;
+	margin-top: 5px;
+}
+
+#ytubesubscribe{
+	margin-top: 7px;
+	margin-bottom: 5px;
+	background-color: #ffffff;
+	width: 100%;
+	height:35px;
+	border-radius: 5px;
+}
+
+#ytb{
+	color: red;
+	font-size: 20px;
+	margin-right: 15px;
+}
+
+.video6c{
+	padding-top: 30px;
+}
+
+.name{
+	color: white;
+	font-size: 30px;
+}
+.channel{
+	color: white;
+	font-family: 'Poppins';
+	font-size: 21px;
+}
+
+.views{
+	color: red;
+	font-size: 21px;
+}
+
+#playbutton2{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	margin: auto auto;
+	color: yellow;
+	height: 100px;
+	cursor: pointer;
+}
+
+#seventhrow{
+	background-color: white;
+	padding: 45px 30px 70px 40px;
+}
+
+.social{
+	color: white;
+	height: 27px;
+	width: 170px;
+	margin: 20px 30px 0px 0px;
+	border-radius: 4px;
+	padding-top: 3px;
+	
+}
+
+#twitter{
+	background-color: #1994c2;
+	margin-top: 35px;
+}
+
+#facebook{
+	background-color: #3a5289;
+}
+
+#googleplus{
+	background-color: #b4302d;
+}
+
+.connect{
+	font-family: 'Poppins';
+	font-weight: normal;
+	font-size: 10px;
+	padding-left: 20px;
+
+}
+
+.sc{
+	color: white;
+	margin-left: 10px;
+}
+
+.sc:hover{
+	text-decoration: none;
+}
+
+.headings{
+	font-size: 28px;
+}
+
+.content{
+	font-family: 'Poppins';
+	font-size:15px;
+}
+
+#eightrow{
+	background-color: #fc1d13;
+	text-align: center;
+	height: 40px;
+	color: white;
+	font-family: 'Poppins';
+	font-size: 14px;
+	padding-top: 10px;
+}
+
+
+@media screen and (max-width: 1190px) {
+	.socialicons ul{padding-left: 0px;}
+	.secondrow .nav2{font-size: 15px; padding-right: 0px;}
+	.videoa{text-align: center; margin:auto; padding-bottom: 30px;}
+	.signform{text-align: center; padding-bottom: 30px; margin-left: 150px;}
+	.row4b .posts p{font-size: 12px;}
+	 #ytubesubscribe{width: 150%;margin-left: -70px;}
+	 #like{font-size: 11px;}
+	 #video2{height: 600px;}
+	 .name{margin-left: 30px;font-size: 25px;}
+	 .channel{margin-left: 30px;}
+	 .views{margin-left: 30px;}
+	
+}
+
+
+
+@media screen and (max-width: 1000px) {
+	#mylogo{margin-left: -60px;}
+	#ytubesubscribe{width: 170%;margin-left: -50px;}
+	#liked{visibility: hidden;}
+	#likebutton{margin-left: 3px;}
+	.secondrow .row2b .heading h1{font-size: 50px;}
+	.row3a h1{font-size: 50px;}
+	.row4a h1{font-size: 50px;}
+	.row5a h1{font-size: 50px;}
+	.row6a h1{font-size: 50px;}
+}
+
+
+@media screen and (max-width: 767px) {
+  .navbar-nav li a{background-color:  #ff0500;} 
+  #like{font-size: 15px;}
+  #liked{visibility: visible;}
+  #ytubesubscribe{width: 100%;}
+  #login{font-size: 17px; margin-top: -25px;}
+  #playbutton{margin: 200px auto;}
+  .secondrow .row2c .videoa img{width: 100%;}
+  .signform{margin-left: 0px;}
+  #mylogo{margin-left: -10px;}
+   #video2{height: 400px;}
+   #seventhrow{text-align: center;}
+   .social{margin:auto auto;}
+   .secondrow .row2b .heading h1{font-size: 40px;}
+   .row3a h1{font-size: 40px;}
+   .row4a h1{font-size: 40px;}
+   .row5a h1{font-size: 40px;}
+   .row6a h1{font-size: 40px;}
+}
+
